@@ -1,0 +1,7 @@
+name=lisi
+age=18
+height=180
+weight=80
+gender=男
+chinese=59
+math=60
