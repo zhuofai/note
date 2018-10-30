@@ -1,0 +1,76 @@
+redis
+	非关系型数据库，NOSQL数据库。key-value键值对
+	数据存储到内存。
+
+	安装redis并运行
+	redis的数据结构
+		redis存储的是：key,value格式的数据，其中key都是字符串，value有5种不同的数据结构
+			value的数据结构：
+				1) 字符串类型 string
+					1. 存储： set key value
+					2. 获取： get key
+					3. 删除： del key
+				2) 哈希类型 hash
+					1. 存储： hset key field value
+						  hset key field2 value2
+					2. 获取： 
+						hget key field: 获取指定的field对应的值
+						hgetall key：获取所有的field和value
+					3. 删除： hdel key field
+				3) 列表类型 list 类似LinkedList
+					1. 添加：
+						lpush key value: 将元素加入列表左表，在表头添加
+						rpush key value：将元素加入列表右边，在表尾添加
+					2. 获取元素
+						lpop key： 删除列表最左边的元素，并将元素返回
+						rpop key： 删除列表最右边的元素，并将元素返回
+					3. 获取多个元素
+						lrange key start end ：范围获取
+							如果end是-1，代表取全部
+							lrange key 0 -1
+				4) 集合类型 set 元素不能重复
+					存储：sadd key value
+					获取：smembers key:获取set集合中所有元素
+					删除：srem key value:删除set集合中的某个元素
+				5) 有序集合类型 sortedset  不允许重复元素，且元素有顺序.每个元素都会关联一个double类型的分数。redis正是通过分数来为集合中的成员进行从小到大的排序。
+					存储：zadd key score value
+					获取：zrange key start end [withscores]
+						如果end是-1，代表取全部
+					      zrevrange key start stop[withscores]
+　　						和zrange类似，不过zrevrange的元素时倒序排列的：zrevrange zsk 0 5 withscores
+					删除：zrem key value
+	使用命令操作redis*****
+		存储数据
+
+		获取数据
+
+		通用命令
+			1. keys * : 查询所有的键
+			2. type key ： 获取键对应的value的类型
+			3. del key：删除指定的key value
+	使用Jedis操作redis
+		Java代码存取数据
+		字符串存储
+			setex() 带有效期的设置
+				key，有效期（单位是秒），value
+				可以存储一个值，设置一个有效期，过期后自动删除。
+	
+	作用
+		当作缓存使用，提升数据的查询效率。
+
+	缓存执行流程（二级缓存）
+		获取数据时优先从缓存（内存）中获取，如果有，直接返回，不再查询数据库
+						    如果没有，去查询数据库，获取到数据之后，把数据存入缓存中。
+		注意：
+			如果是频繁进行增删改的数据，不建议使用缓存。会出现同步数据的问题。
+作业：
+	省市二级联动案例
+		1. 提供index.html页面，页面中有一个省份 下拉列表
+		2. 当 页面加载完成后 发送ajax请求，加载所有省份
+		3. 页面中添加城市下拉列表，当某个省份被选中之后，异步加载城市信息
+			列出1-2个城市即可
+		4.使用数据库完成数据的获取
+			城市要单独设计一张表，有一个外键指向省份表的主键。
+		5.城市的列表要需要使用redis作为缓存对查询效率进行优化。
+		
+	

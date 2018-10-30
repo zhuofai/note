@@ -1,0 +1,85 @@
+异步请求*****
+Ajax
+	是使用了新的思想，采取的还是老的技术。
+异步
+	同步：
+		在同一个线程中，代码是从上而下依次执行的。
+		问题：如果发送同步请求，请求发出之后，如果响应比较慢，代码就一直等待。导致用户等待时间和网络环境相关性很大，容易导致用户体验比较差。
+	异步：
+		开一个新的线程，在新的线程中执行请求发送的代码。不会影响原有代码的执行。
+		特点：
+			可以局部刷新页面
+传统JS的异步请求（了解）
+	核心类	XMLHttpRequest
+	异步请求的底层原理
+		XMLHttpRequest对象相当于一个在内存中虚拟的浏览器，可以通过它发送请求。通过此对象发送的请求，可以异步处理。同时，响应也会回到此对象进行处理，跟真正的浏览器无关。
+JQuery的异步请求(掌握)
+	$.ajax({参数列表})***
+		此方法可以针对请求的细节做自定义设置，一般用于比较复杂的逻辑的请求。使用的场景比较少
+		url、type、success（成功后的回调，传递响应内容）
+		dataType:"text"
+			响应的数据类型。如果没有指定，会自动解析响应的mimetype，如果有使用此类型，如果没有默认是文本。
+	$.get()/post()*****
+		参数：
+			url：访问路径
+			data：请求参数
+			function(data)：回调函数，回调函数的参数就是响应内容
+			datatype可以不写，默认会自动解析，如果没有才使用默认的文本格式
+	jq对象.load()
+		把一个url的内容加载到某个元素内部。
+			一般用于响应内容直接显示到页面上的情况，使用的场景比较少。
+在Java中如何与js的异步请求进行数据交互
+	数据格式：JSON（掌握）
+		JSON是一种轻量级的跨平台的数据表示方式。
+		语法：
+			数据格式：全部都是键值对。
+			键：字符串
+			值：
+				基本数据类型
+				json对象
+				json数组
+		获取值
+			1. json对象.键名
+			2. json对象["键名"]
+			3. 数组对象[索引]
+				数组拿出来的元素还是一个json对象，需要继续“.键”获取值
+			4. 遍历
+				for(var key in json对象){
+					var value = json对象[key];
+				}
+	把json对象转为字符串表示形式
+		JSON.stringify(json对象)
+
+	java对象和json的互转
+		java转json*****
+			1. 导入jackson的相关jar包
+			2. 创建Jackson核心对象 ObjectMapper
+			3. 调用ObjectMapper的相关方法进行转换
+			注解：
+				1. @JsonIgnore：排除属性。
+				2. @JsonFormat：属性值得格式化
+					@JsonFormat(pattern = "yyyy-MM-dd")
+			集合的处理：
+				list集合：返回的是一个json数组的字符串形式
+				map集合：返回的是一个json对象的字符串像是
+		json字符串转java对象
+			// 把一个json的数组转成一个带有泛型的List集合
+			@Test
+			public void test6() throws IOException {
+			    ObjectMapper mapper = new ObjectMapper();
+			    CollectionType javaType = mapper.getTypeFactory().constructCollectionType(List.class, Person.class);
+			    List<Person> list = mapper.readValue("[{\"name\":\"张三\",\"age\":23,\"gender\":\"男\",\"birthday\":\"2018-10-23\"},{\"name\":\"张三\",\"age\":23,\"gender\":\"男\",\"birthday\":\"2018-10-23\"},{\"name\":\"张三\",\"age\":23,\"gender\":\"男\",\"birthday\":\"2018-10-23\"}]",javaType);
+			    System.out.println(list.size());
+			}
+	服务器响应的数据，在客户端使用时，要想当做json数据格式使用。有两种解决方案：
+			1. $.get(type):将最后一个参数type指定为"json"
+			2. 在服务器端设置MIME类型
+				response.setContentType("application/json;charset=utf-8");
+作业：
+	1.异步校验用户名是否存在
+		使用数据库查询用户
+	2.仿百度的搜索页面关键字提示
+		1.输入关键字可以自动弹出联想数据框
+		2.数据从数据库中查询，以关键字开头
+		3.数据最多显示5条
+		4.使用异步完成，使用json完成数据传输
