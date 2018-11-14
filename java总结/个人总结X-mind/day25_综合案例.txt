@@ -74,5 +74,8 @@
 		使用缓存的数据的特点：
 			数据应该不经常发生变化
 			使用缓存之后，要考虑数据同步问题。如果数据发生了增删改，缓存要清空，重新获取。
+
+
+-DarchetypeCatalog=internal -Dfile.encoding=GBK
 		
 			
