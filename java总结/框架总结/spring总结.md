@@ -226,28 +226,77 @@
 
 ## spring开发实战
 
-### 常用的装配
+1. spring采取4种关键策略:
+    * 基于POJO的轻量级和最小侵入性编程;
+    * 通过依赖注入和面向接口实现松耦合
+    * 基于切面和惯例进行声明式编程.
+    * 通过切面和模版减少样板式代码.
+2. 一些术语补充
+    * 创建应用组件之间协作行为通常称为装配(wiring)
+3. DI能够让相互写作的组件保持松散耦合,而面向切面编程(aspect-oriented programming,AOP)允许你把遍布应用各处的功能分离出来形成可重用的组件. 
+
+### 依赖注入DI(Dependency Injection)
+
+1. 通过ID,对象的依赖关系将由系统中负责协调各对象的第三方组件在创建对象的时候进行设定.对象无需自行创建或管理它们的依赖关系,依赖关系将被自动注入到需要它们的对象中去.
+2. spring通过应用上下文(Application Context)装载bean的定义并把他们组装起来.spring应用上下文全权负责对象的创建和组装.
+
+### 面向切面编程 AOP(Aspect-Oriented Programming)
+
+1. 导引:面向切面编程往往被定义为促使软件系统**实现关注点的分离**的一项技术.那么系统每一个组件各负责一块特定功能.除了实现自身核心的功能之外,这些组件还经常承担着额外的职责.诸如日志 事务管理和安全这样的系统服务经常融入到自身具有核心业务逻辑的组件中去,这些系统服务通常被称为横切关注点.因为它们会跨越系统的多个组件.
+2. 面临的问题
+    * 实现系统关注点功能的代码将会重复出现在多个组件中.这意味这如果你要该变这些关注点的逻辑,必须修改各个模块中的相关实现.即使你把这些关注点抽象为一个独立的模块,其他模块只是调用它的方法,但方法的调用还是会重复出现在各个模块中.
+    * 组件会因为那些与自身核心业务无关的代码而变得混乱.一个向地址簿增加地址条目的方法应该只关注如何添加地址,而不应该关注它是不是安全的,或者是否需要支持事务.
+
+### Bean
+
+1. 基于spring的应用中,你的应用对象生存于spring容器(container)中.容器负责创建对象,装配它们,配置它们并管理它们的整个生命周期,从生存到死亡.
+2. spring自带了多个容器实现,可以归为两种不同的类型.**bean工厂**(由org.springframework.beans.factory.eanFactory接口定义,一般不用太低级)是最简单的容器,提供基本的DI支持.**应用上下文**(由org.springframework.context.ApplicationContext接口定义)基于BeanFactory构建,并提供应用框架级别的服务.
+3. 不同的应用上下文将bean加载到bean工厂的过程都是相似的.
+
+### spring概览
+
+@import "./img/spring-overview.png"
+
+1. spring核心容器
+    * 容器是Spring框架最核心的部分,他管理者Spring应用中bean的创建 配置和管理.在该模块中,包括了Spring bean工厂,它为Spring提供了DI的功能.
+    * 所有的Spring模块都构建与核心容器之上.
+2. Spring的AOP模块
+    * 在AOP模块中,Spring对面向切面编程提供了丰富的支持.
+    * 与DI以牙膏AOP可以帮助应用对象解耦
+3. 数据访问与集成.
+    * Spring的JDBC和DAO(Data Access Object)模块抽象了样板式代码.
+    * 对于更喜欢使用ORM(Object-Relational Mapping)工具而不愿意直接使用JDBC的开发者,Spring提供了ORM模块.
+    * 除此之外本模块会使用SpringAOP模块为Spring应用中的对象提供事务管理服务.
+4. Web与远程调用
+    * MVC(Model-View-Controller)模式是一种普遍被接受的构建Web应用的方法.
+    * 他的Web和远程调用模块自带了一个强大的MVC框架,有助于在Web层提升应用的松耦合水平.
+    * 除了面向用户的Web应用,该模块还提供了多种构建与其他应用交互的远程调用方案.Spring远程调用功能继承了RMI(Remote Method Invocation) Hessian Burlap JAX-WS,同时Spring还自带了一个远程调用框架:Http invoker.
+5. Instrumentation
+    * 该模块提供了为JVM添加代理(agent)的功能.具体来讲它为Tomcat提供了一个织入代理,能够为Tomcat传递类文件,就像这些文件是被类加载器加载的一样.(补偿用)
+6. 测试
+    * spring为使用JNDI Servlet和Portlet编写单元测试提供了一些列的mock对象实现.
+    * 对于继承测试,该模块加载Spring应用上下文中的bean集合以及与Spring上下文中的bean进行交互提供了支持.
 
 ## 学习中遇到的问题及解决
 
 1. spring已经实现了aop，为什么还要用aspectj?
     * spring有自己的AOP实现与aspectj的实现不同比较麻烦，马士兵的教程所讲的是spring整合了aspectj的AOP马士兵没有将spring自己的aop，在视频的末尾他说一般情况用不到spring自己的AOP你可以仔细听听，spring在做声明式事物处理时就没有用aspectj嘛！springAOP是设计用于在应用服务器环境下实现AOP，切入点与方面均由普通Java对象实现，其中连接点模型与AspectJ相同，只是远不如AspectJ丰富。针对你的问题spring有两组AOP一组是spring本身的一组是整合AspectJ，就好比在国际上一个中国人说英语是因为大家都说英语（好比AspectJ），但中国人还有自己的语言中文（spring自己的AOP）
     * 根据我看spring官方文档的理解
-    ①选择spring的AOP还是AspectJ?
-    spring确实有自己的AOP。功能已经基本够用了，除非你的要在接口上动态代理或者方法拦截精确到getter和setter。这些都是写奇葩的需求，一般不使用。
-    ②在使用AOP的时候，你是用xml还是注解的方式（@Aspect）？
-    1）如果使用xml方式，不需要任何额外的jar包。
-    2）如果使用@Aspect方式，你就可以在类上直接一个@Aspect就搞定，不用费事在xml里配了。但是这需要额外的jar包（ aspectjweaver.jar）。因为spring直接使用AspectJ的注解功能，注意只是使用了它 的注解功能而已。并不是核心功能 ！！！
-    注意到文档上还有一句很有意思的话：文档说到 是选择spring AOP还是使用full aspectJ？
-    什么是full aspectJ？如果你使用"full aspectJ"。就是说你可以实现基于接口的动态代理，等等强大的功能。而不仅仅是aspectj的 注-解-功-能 ！！！
-    如果用full AspectJ。比如说Load-Time Weaving的方式 还 需要额外的jar包 spring-instrument.jar
-    当然，无论是使用spring aop还是 aspectj都需要aspectjweaver.jar spring-aop.jar这两个jar包。
+        1. 选择spring的AOP还是AspectJ?
+        spring确实有自己的AOP。功能已经基本够用了，除非你的要在接口上动态代理或者方法拦截精确到getter和setter。这些都是写奇葩的需求，一般不使用。
+        2. 在使用AOP的时候，你是用xml还是注解的方式（@Aspect）？
+        1）如果使用xml方式，不需要任何额外的jar包。
+        2）如果使用@Aspect方式，你就可以在类上直接一个@Aspect就搞定，不用费事在xml里配了。但是这需要额外的jar包（ aspectjweaver.jar）。因为spring直接使用AspectJ的注解功能，注意只是使用了它 的注解功能而已。并不是核心功能 ！！！
+        3. 注意到文档上还有一句很有意思的话：文档说到 是选择spring AOP还是使用full aspectJ？
+        什么是full aspectJ？如果你使用"full aspectJ"。就是说你可以实现基于接口的动态代理，等等强大的功能。而不仅仅是aspectj的 注-解-功-能 ！！！
+        4. 如果用full AspectJ。比如说Load-Time Weaving的方式 还 需要额外的jar包 spring-instrument.jar
+        当然，无论是使用spring aop还是 aspectj都需要aspectjweaver.jar spring-aop.jar这两个jar包。
 
-    @import "Leslie.jpg"
+## Spring Core文档
 
-```sequence{theme="hand"}
-Andrew->China: Says Hello
-Note right of China: China thinks\nabout it
-China-->Andrew: How are you?
-Andrew->>China: I am good thanks!
-```
+### IOC容器
+
+1. Foremost amongst these is the Spring Framework’s Inversion of Control (IoC) container. (在这些模块中最重要的是IOC容器)
+2. IOC的由来: It is a process whereby objects define their dependencies, that is, the other objects they work with, only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method. The container then injects those dependencies when it creates the bean. This process is fundamentally the inverse, hence the name Inversion of Control (IoC), of the bean itself controlling the instantiation or location of its dependencies by using direct construction of classes, or a mechanism such as the Service Locator pattern.
+3. The _org.springframework.beans_ and _org.springframework.context packages_ are the basis for Spring Framework’s IoC container.
+4. bean:In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are called beans.

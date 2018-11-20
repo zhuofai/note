@@ -11,7 +11,7 @@
 1. 五种单句的基本句型S(subject):主语;V(verb):动词;O(object):宾语;C(complement):补语
     * S+V(主语+动词)
     * S+V+O (主语+动词+宾语)
-    * S+V+C(主语+动词+补语)O:宾语
+    * S+V+C(主语+动词+补语)
     * S+V+O+O(主语+动词+宾语+宾语)
     * S+V+O+C(主语+动词+宾语+补语)
 2. 要了解补语,只需要研究那些解释为"是"的动词.只有解释为"是"的动词是空的,完全没有意义.也只有这种动词才需要补语来补足句子的意思.
@@ -122,3 +122,32 @@
 1. **专有名词与补语位置**
 2. 人名 地名等都是专有名词.因为它所代表的对象只有一个,也不合适加a(n),所以可以不用限定词.如果使用a Genghis Khan来代表成吉思汗,那么这里指的是one Genghis Khan(一个成吉思汗)的意思.亦即在此句中暗示有第二个成吉思汗存在,所以才特别需要标示是"一个".
 3. 加a(n)与加-s是一体两面,我们用这两个符号分别来表示单复数.如果一个名词不能加-s(或者是作不规则复数变化),那么他也就不能加a(n).专有名词就是如此.
+4. 判断是否为专有名词
+    1. 唯一的一天,也就算是专有名词.
+        * There are five Sundays this month.(这个月有五个星期日.)
+        * I have an appointment on Sunday.(我星期日有约)
+    2. 放在补语位置的专有名词(补语和专有名词划等号)
+        * Mr. Elson was **president** of the high school.(埃尔森先生曾是这所高中的校长)
+        * Some say he was **a better president** than Mr. Robert.(有人说他当校长,比罗伯特先生干的更好)
+        * Mr. Elson is also **a member** of the Council of the city.(埃尔森先生也是该城市政会委员)
+5. 先解析这三句:1.埃尔森和"校长"两词性质本不相同.可是,因为在此句中"校长"是埃尔森先生的补语,可以和埃尔森先生划上一个等号,再者,当时这所高中校长一职确实只有埃尔森先生一人,因此也支持这个诠释.2.因为上下文中和罗伯特先生做比较,这么依赖就有前后两任校长,可以加-s,不是专有名词了.3.a member需要交代是"一名",而非专有名词.
+6. 同位语中....
+    * Mattin Wales,**Head** of the football team,at the time,wore a mustache.(马丁威尔斯,当时的足球队长,留有小胡子)
+7. 分析:句中Head of the football team 一般称为同位语,其实就是who was Head of the football team at the time这个形容词从句的省略.其中who代表马丁威尔斯,而Head则是主语补语,和马丁威尔斯是同等关系,所以仍然算是专有名词
+8. 写主语补语和宾语补语时,注意该补语是否为专有名词.
+    * Clinton made Gorle **campaign partner** of the Presidential election.(克林顿选择戈尔为总统大选竞选搭档)
+9. 分析:因为它是"戈尔"的宾语补语为其同等关系.而副总统搭档只有一人,所以它便成为专有名词的用法.
+
+#### 定冠词the的用法
+
+1. 概述:在语源学上,the可视为that和those的弱化形式.而that或those是指示形容词,有明确的指示功能.所以定冠词the也可以用同样的角度来了解:凡是上下文中有明指或暗示时,也就是有"那个"的指示功能时,便要用定冠词the.
+2. 例句
+    * I need a book to read on my trip.(我在旅途中需要带本书读)
+    * I have finished the book you lent me.(我已把你借给我的书读完了)
+
+---
+
+1. 例句
+    * **Modern** history is my favorite subject.(现代史是我最喜欢的科目)
+    * **The history** of recent China is a sorry record.(中国近代史是部伤心史)
+
