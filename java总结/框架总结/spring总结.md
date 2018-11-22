@@ -233,7 +233,7 @@
     * 通过切面和模版减少样板式代码.
 2. 一些术语补充
     * 创建应用组件之间协作行为通常称为装配(wiring)
-3. DI能够让相互写作的组件保持松散耦合,而面向切面编程(aspect-oriented programming,AOP)允许你把遍布应用各处的功能分离出来形成可重用的组件. 
+3. DI能够让相互写作的组件保持松散耦合,而面向切面编程(aspect-oriented programming,AOP)允许你把遍布应用各处的功能分离出来形成可重用的组件.
 
 ### 依赖注入DI(Dependency Injection)
 

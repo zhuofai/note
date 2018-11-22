@@ -150,4 +150,69 @@
 1. 例句
     * **Modern** history is my favorite subject.(现代史是我最喜欢的科目)
     * **The history** of recent China is a sorry record.(中国近代史是部伤心史)
+2. 第一句modern history一词中,history是抽象名词,不可数,因而没有a.而在形容词位置上的modern只是附在history上的修饰语,并不算明确的指示,所以不必加the.
+3. 例句
+    * He should be home;I saw a light in his house.(他应该在家;我看见他家灯亮了)
+    * Turn off the portal light.(把门口的灯关掉)
+4. 第一句虽然a light后面有in his house来修饰,可是一栋房子中电灯可能有数十个,所以in his house并不算是明确的指示,仍然要用a light.相反,在第二句中,叫人把大门口的灯关掉,portal,虽然是附在名词前面的形容词,可是有明确的指示功能.
+5. 另外,如果上下文中没有明确指出来,但有清楚的暗示,仍然要用定冠词the.
+    * 先生对太太说:I'm going to the office now.
+    * Do you mind if I open the window.
 
+---
+
+1. 定冠词与专有名词
+    * 名词的定义是:只有一个对象存在的名词,像Genghis Khan和Taibei等.既然只有一个对象存在就没有"这个" "那个"的分别,也就不能加定冠词the.
+    * 专有名词和定冠词是有冲突 且不能并存的.如果加了the,就表示这个东西有两个以上,也就不是专有名词了.
+2. 例句
+    * This is not **the John Smith** I know.
+    * This is photography show of **the** Taibei 50 years ago.
+3. 分析:
+    * 第一句暗示还有领个约翰史密斯存在,所以就不再是专有名词,可以用this或that来区分
+    * 还有"50年前的台北"这句话暗示和今日台北不同了,有两个台北.这是台北也就成了普通名词.
+4. 最后那些加"(表面是然而却不是)the的专有名词"
+    * the Pacific(Ocean) 太平洋
+    * the Altantic(Ocean) 大西洋
+    * the Indian Ocean 印度洋
+    * the Mediterranean(Sea) 地中海
+    * the Dead Sea  四海
+5. 分析:
+    * "太平洋"the Pacific(Ocean)一词中,Pacific是放在形容词的位置,词尾-ic是明显的形容词字尾.在名词位置上的Ocean其实是普通名词(世界上有三个洋.只要有两个以上就不算是专有名词),再次被省略掉.所以定冠词the是配合后面的普通名词Ocean,指出"叫做Pacific"的那个洋.
+    * 在三大洋中只有印度洋不适合省略,因为the Indian可能会被误解为"这名印第安人".
+    * 同理,the Mediterranean(Sea)是普通名词the sea加上形容词Mediterranean,也不是例外."地中海"可以省略sea,是因为省略之后仍然够清楚.但死海the Dead Sea就不能省略,否则会被误认"死人"the dead people.
+6. 例子:
+    * the Philippine Islands → the Philippines  菲律宾群岛
+    * the Alp Mountains → the Alps    阿尔卑斯山
+    * the Mississippi(River)   密西西比河
+    * the Titaniz(Ship)   泰坦尼克号
+    * the Hilton(Hotel)   希尔顿饭店
+    * **the United States** of America美国---只有America这个名词短语是专有名词,所以前面没有加冠词
+    * **the United Nations** 联合国
+7. 观念总结
+    * 名词短语包括限定词 形容词 名词三个部分.任一部分都可能省略
+    * 如果名词短语中不用限定词,是因为该名词不合适加a(n)
+    * a(n)是one的弱化结果,而the是that/those的弱化结果.
+8. 在看文章的时候请留心名词短语,尤其是冠词的用法,就是最好的练习.
+
+### 第三章动词时态
+
+>概述:动词时态的变化,好像是非常复杂.其实如果在句型诠释上稍微变通一下,时态问题是很容易理解的,而且只需要了解两种状态:简单式与完成式.就能充分掌握所有的时态变化.
+
+1. 面临的问题:在现代语法中,时间(time)和状态(aspect)是分开处理的.如果再把主动 被动语态(voice)加进来就更多了.
+2. 解决办法: 把be动词当作动词,其后的分词则视为形容词补语.动词短语长的时候,里面一定会有be动词,如果把be动词抽离出来当作动词看待,那就只剩下用be动词写的简单式,以及用have been写的完成式两种状态.分词则可视为形容词补语,不放在动词短语里面,如此一来整个时态的问题就会简单化,我们只需要弄清楚什么是简单式,什么是完成式就可以了.
+
+#### 简单式
+
+>概述:简单式的动词可以清楚交代动词是发生于那个时段.而与它搭配的时间副词通常会明确标示出一个时段.也就是说:简单式的时间是括弧的形状,我们可以用括弧把简单式的事件括起来.**注意观察动词时态与时间副词之间的关系.**
+
+##### 过去时间
+
+1. 例句
+    * The U.S. _established_ diplomatic relations with the P.R.C. _in 1979_(美国与中华人民国和国于1979年建交)
+2. 分析:此句中,以in 1979来修饰动词establish(建立的时间),如图所示,属于过去时间,所以动词用established,是过去时间的简单式.
+3. 例句
+    * The movable print _was_ introduced to England _in 1485_.(活版印刷于1485年被引进英国.)
+4. 分析:把be动词当动词看,他的时间副词in 1485也是一个括弧,在now左边,同样是过去事件的简单式,所以动词是was,意思是说活版印刷引进英国这件事情是发生在那个括出来的时段中.过去分词introduced当作形容词补语看待,过去分词字尾-ed视为一个表达被动意味的形容词字尾.be动词是一个没有意义的连缀动词,用来连接主语"活版印刷"和补语"被引进(到英国)".be动词虽然没有意义,不需要翻译,可是它是动词,必须以它来决定时态,所以用was的过去简单式出现.
+5. 例句
+    * I was visiting clients the whole day yesterday.(昨天一整天我一直在拜访客户.)
+6. 分析: 同样的,把be动词视为动词看待会比较简单.时间副词the whole day yesterday的性质和in 1979是相同的:都是一个过去时间的括弧.所以,动词时态也是一样的:都是过去简单式:was.be动词后面visiting clients 这个部分可视为一个现在分词的短语,作为形容词补语来形容主语.现在分词表示一种持续性,相当于中文的"正在","一直"的口吻.be动词不用翻译,因为它是一个没有意义的连缀动词,连接主语"我"和补语"一直在拜访客户".be动词只要负责交代时态就好.

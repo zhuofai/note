@@ -1,12 +1,19 @@
 # mybatis总结
 
+## 框架概述
+
+1. 框架（Framework）是整个或部分系统的可重用设计，表现为一组抽象构件及构件实例间交互的方法;另一种 定义认为，框架是可被应用开发者定制的应用骨架。前者是从应用方面而后者是从目的方面给出的定义。  简而言之，框架其实就是某种应用的半成品，就是一组组件，供你选用完成你自己的系统。简单说就是使用别 人搭好的舞台，你来做表演。而且，框架一般是成熟的，不断升级的软件。
+2. 框架要解决的问题
+    * 框架要解决的最重要的一个问题是技术整合的问题，在 J2EE 的 框架中，有着各种各样的技术，不同的 软件企业需要从 J2EE 中选择不同的技术，这就使得软件企业最终的应用依赖于这些技术，技术自身的复杂性和技 术的风险性将会直接对应用造成冲击。而应用是软件企业的核心，是竞争力的关键所在，因此应该将应用自身的设计和具体的实现技术解耦。这样，软件企业的研发将集中在应用的设计上，而不是具体的技术实现，技术实现是应 用的底层支撑，它不应该直接对应用产生影响。
+3. 框架一般处在低层应用平台（如 J2EE）和高层业务逻辑之间的中间层。
+
 ## 入门
 
 1. 什么是 MyBatis ？
-    >MyBatis 是一款优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。MyBatis 避免了几乎所有的 JDBC 代码和手动设置参数以及获取结果集(采用 ORM 思想解决了实体和数据库映射的问题，对 jdbc进行了封装，屏蔽了 jdbc api 底层访问细节)。MyBatis 可以使用简单的 XML 或注解来配置和映射原生信息，将接口和 Java 的 POJOs(Plain Old Java Objects,普通的 Java对象)映射成数据库中的记录。(ORM[Object Relational Mapping]对象关系映射)
+    >MyBatis 是一款优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。MyBatis 避免了几乎所有的 JDBC 代码和手动设置参数以及获取结果集.MyBatis 可以使用简单的 XML 或注解来配置和映射原生信息，将接口和 Java 的 POJOs(Plain Old Java Objects,普通的 Java对象)映射成数据库中的记录。(ORM[Object Relational Mapping]对象关系映射)采用 ORM 思想解决了实体和数据库映射的问题，对 jdbc进行了封装，屏蔽了 jdbc api 底层访问细节，使我 们不用与 jdbc api 打交道，就可以完成对数据库的持久化操作。
 2. 如何使用:
     * 使用首先构建依赖
-        ```java
+        ```xml
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
@@ -46,7 +53,7 @@
 
 ## XML映射配置文件
 
-1. 文档的顶层结构
+1. 文档的顶层结构configuration 配置
     * configuration 配置
     * properties 属性
     * settings 设置
@@ -254,7 +261,7 @@
 
 ### sql
 
-1. 这个元素可以被用来定义可重用的 SQL 代码段，可以包含在其他语句中。它可以被静态地(在加载参数) 参数化. 不同的属性值通过包含的实例变化. 
+1. 这个元素可以被用来定义可重用的 SQL 代码段，可以包含在其他语句中。它可以被静态地(在加载参数) 参数化. 不同的属性值通过包含的实例变化.
 
 ### Result Maps
 
@@ -333,8 +340,8 @@ case – 基于某些值的结果映射
 ```m
 <select id="findActiveBlogWithTitleLike"
      resultType="Blog">
-  SELECT * FROM BLOG 
-  WHERE state = ‘ACTIVE’ 
+  SELECT * FROM BLOG
+  WHERE state = ‘ACTIVE’
   <if test="title != null">
     AND title like #{title}
   </if>
@@ -348,11 +355,11 @@ case – 基于某些值的结果映射
 ```m
 <select id="findActiveBlogLike"
      resultType="Blog">
-  SELECT * FROM BLOG 
-  WHERE 
+  SELECT * FROM BLOG
+  WHERE
   <if test="state != null">
     state = #{state}
-  </if> 
+  </if>
   <if test="title != null">
     AND title like #{title}
   </if>
