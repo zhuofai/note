@@ -209,10 +209,109 @@
 
 1. 例句
     * The U.S. _established_ diplomatic relations with the P.R.C. _in 1979_(美国与中华人民国和国于1979年建交)
+    @import "img/simplewas1.png"
 2. 分析:此句中,以in 1979来修饰动词establish(建立的时间),如图所示,属于过去时间,所以动词用established,是过去时间的简单式.
 3. 例句
     * The movable print _was_ introduced to England _in 1485_.(活版印刷于1485年被引进英国.)
+    @import "img/simplewas2.png"
 4. 分析:把be动词当动词看,他的时间副词in 1485也是一个括弧,在now左边,同样是过去事件的简单式,所以动词是was,意思是说活版印刷引进英国这件事情是发生在那个括出来的时段中.过去分词introduced当作形容词补语看待,过去分词字尾-ed视为一个表达被动意味的形容词字尾.be动词是一个没有意义的连缀动词,用来连接主语"活版印刷"和补语"被引进(到英国)".be动词虽然没有意义,不需要翻译,可是它是动词,必须以它来决定时态,所以用was的过去简单式出现.
 5. 例句
-    * I was visiting clients the whole day yesterday.(昨天一整天我一直在拜访客户.)
+    * I _was_ visiting clients _the whole day yesterday._(昨天一整天我一直在拜访客户.)
+    @import "img/simplewas3.png"
 6. 分析: 同样的,把be动词视为动词看待会比较简单.时间副词the whole day yesterday的性质和in 1979是相同的:都是一个过去时间的括弧.所以,动词时态也是一样的:都是过去简单式:was.be动词后面visiting clients 这个部分可视为一个现在分词的短语,作为形容词补语来形容主语.现在分词表示一种持续性,相当于中文的"正在","一直"的口吻.be动词不用翻译,因为它是一个没有意义的连缀动词,连接主语"我"和补语"一直在拜访客户".be动词只要负责交代时态就好.
+7. 例句
+    * I was watching TV when I heard the doorbell.(听到门铃响时,我正在看电视.)
+    @import "img/simplewas4.png"
+8. 例句
+    * The witness _was_ being questioned in court _when he had a heart attack._(证人心脏病突发时,他正在法庭上被质询.)
+    @import "img/simgplewas5.png"
+9. 分析:
+    * 此句中,时间副词when he had a heart attack指的是他心脏病突发的瞬间,是一个最小的括弧.而had表示这个时间是过去的时间,所以be动词用was来表示过去的简单式.
+    * 主语是"证人",be动词后面的部分当形容词补语看待,有being和questioned两个分词,都视为形容词.be动词是没有意义的,所以being存在的主要意义不在be,而在字尾-ing.这个字尾表示"正在",所以being只要解释为"正在"就可以了.
+    * 过去分词questioned也当形容词看,可是过去分词字尾-ed表示被动,配合question就解释为"被质询",所以,being questioned解释为"正在被质询",用来做为主语"证人"的补语.动词was还是过去的简单式.
+
+##### 现在时间
+
+>概述:如果时间副词是now,或是以now为中心的或大或小的括弧,就要用现在时间的简单式.真理以及事实要用现在式表示,也没有什么好背的因为:只有在以now为中心的括弧,可以大到涵盖过去未来,才可以用来表示不变的真理.
+
+1. 例子:
+    * Huang _pitches_ a fast ball.Li _swings_.It _looks_ like a hit.The shortshop fails to stop it .It's a double!
+    @import "img/simpleing1.png"
+    * Bush is the U.S President.
+    @import "img/simpleing2.png"
+    * All mothers _love_ their children.
+    @import "img/simpleing3.png"
+2. 例子
+    * 7-ELEVEN _is_ selling big cokes at a discount _this month._(统一超市这个月大杯可乐打折.)
+    @import "img/simpleing4.png"
+3. 分析
+    * 把be动词当动词看,时间副词this month是以now为核心的一个括弧,所以用现在简单式is.可乐打折,是正在持续中的活动,所以用selling big cokes,以现在分词片词作补语来强调持续性.
+
+##### 未来时间
+
+>未来时间的简单式,只是把括弧放在now的右边,其他的原理则完全相同,至于里面会有一些牵扯到语气问题的变化,在本章初步的解说,详细的说明则留待到第九章再做讨论.
+
+1. 例句:
+    * There _will be_ a major election _in March._(三月将有一次大选.)
+    * Don't call me at six tomorrow.I'_ll_ till _be_ sleeping then.(不要在明天6点时打电话给我.我那时还在睡觉)
+2. 分析:
+    * 第一句过于简单,就不分析了
+    * 明天六点,时六点整那一刻,所以时一个最小的括弧,因为是在now的右边,所以要用未来简单式.把be动词当动词看,未来简单式will be后面的sleeping就要当形容词补语.而词尾-ing标示持续性.所以sleeping是"在睡觉",用来形容主语"我".动词will be当中,连缀动词be没有意义,只要解释will的部分"会"即可.
+3. 例子:
+    * The building will be razed next month.(这个房子下个月拆除)
+4. 分析:
+    * 时间副词next month是一个未来时间的括弧,所以动词用未来简单式:will be.后面的razed(被拆除)是过去分词,当形容词补语看待,形容主语"房子".
+
+#### 完成式
+
+>相对于简单式用括弧形状来表达事件,完成式则是以箭头形状来表达事件,表示动作的截止时间.从功能上来看,简单式是交代动作发生的时段,而完成式并不对动作发生的时段作明确的交代,只表示"曾经","做过"的意思.
+
+##### 完成式现在时间
+
+1. 例句
+    * I'm sure I have seen this face somewhere.(我肯定曾经见过这张脸.)
+    * We _have been_ working overtime _for a week_ to fill your order.(我们连续加班一星期赶出你订的货.)
+2. 把be动词当作动词看,那么再复杂的动词时态也只剩下两种变化,不是简单式就是完成式.这里用完成式,因为时间副词for a week是"到现在,算算有一星期之久了",这时候重点在于"算到现在已经有了",所以强调的是截止事件,是箭头形状的时间,要用完成式"已经"来配合,所以动词用have been.后面的补语working是现在分词,表示持续性,也就是"一直在加班",用来形容主语"我们".**动词have been是be动词**,不必翻译,只要解释完成部分"已经"和时间副词"有一个星期"就可以了.
+3. 例句
+    * The house has been redecorated twice since they moved in.(打从他们搬来算起,这栋房子已经被装修过两次了)
+
+##### 完成式过去时间
+
+>如果没有特别交代的话,一般说"有....过"就是"到现在有....过",所以都是现在完成式.用过去完成式时则要有一个过去的截止时间,也就是箭头指在一个过去时间,在那之前就"有...过".
+
+1. 例:
+    * Many soldiers _had died_ from pneumonia _before the discovery of penicillin_.(发现盘尼西林以前,已经有很多士兵死于肺炎.)
+    * I _had been_ smoking three packs of cigarettes a day _before I decide to quit_.(我决定戒烟之前,每天要抽三包烟)
+    * Japan _had not been_ defeated yet _by the time Germany surrendered_ unconditionally.(到德国无条件投降为止,日本尚未被打败.)
+
+##### 完成式未来时间
+
+>未来时间的完成式,只是把箭头所指的截止时间移到未来的一个点.观念上与现在和过去时间完成式完全一样.在写法上,因为是未来时间,所以动词前面加一个will就可以了.
+
+1. 例句
+    * Next April,I will have worked here for 20 years.(到四月,我在这里就工作20年了)
+2. 分析
+    * 这个句子中括出时间next April,看起来好像要用简单式.可是还有另一个时间副词for 20 years,是一个箭头.你不可能在四月这个月内替公司工作20年,所以next April只是一个截止事件.表示"算到四月为止有20年"来修饰动词,所以要用完成式.动词前面加上will,表示到现在还没有,到四月才"会"做满20年,也就是未来事件的完成式.
+3. 例句
+    * Come back at 5:00.Your car will have been fixed by then.(五点再来吧!到时候你的车一定已经修好了)
+    * In two more minutes,she will have been talking on the phone for three hours!(再过两分钟,他就一直打了足足三个小时的电话了)
+4. 以上的探讨除了一些牵扯到语气的问题留待以后处理以外,已涵盖了传统与法中所有的时态变化
+    * 把be动词当动词看,句子就只剩两种状态:简单式与完成式.
+    * 简单式是以括弧的时间来表达.
+    * 完成式是以括弧型的时间来表达.
+    * 完成式是以箭头的时间来表达
+    * be动词后面的分词当作形容词补语,现在分词有正在进行的意思,过去分词有被动的意思.
+
+### 不定式短语
+
+> 概述所谓"不定词短语",就是to加上原形动词所形成的短语.传统语法处理不定短语时,总是语焉不详,在笔者的观察中,不定词最合理的解释就是把它视为助动词的变化.只要确实弄清楚不定词与助动词之间的关系,就可以不必背任何规则和表格,而全盘了解不定词的变化以及它与其他"动状词"(Verbals)之间的关系,包括现在分词和过去分词与动名词.
+
+#### 不定词与助动词的共同点
+
+1. 例句
+    * I am glad to know you.(很高兴能认识你)
+2. 分析
+    * 为什么用不定词to know you?"为什么不能用动名词knowing you?"其实只要了解不定词与助动词之间的关系,就可以了解这个不定词是来自助动词的变化.
+    * 还原I am glad because I can know you
+    * 进一步改写为I am glad because I am able to know you
+    * 由连接词because所引导的副词从句中,
