@@ -311,7 +311,117 @@
 1. 例句
     * I am glad to know you.(很高兴能认识你)
 2. 分析
-    * 为什么用不定词to know you?"为什么不能用动名词knowing you?"其实只要了解不定词与助动词之间的关系,就可以了解这个不定词是来自助动词的变化.
-    * 还原I am glad because I can know you
-    * 进一步改写为I am glad because I am able to know you
-    * 由连接词because所引导的副词从句中,
+    * 为什么用不定词*to know you?*"为什么不能用动名词knowing you?"其实只要了解不定词与助动词之间的关系,就可以了解这个不定词是来自助动词的变化.
+    * 还原I am glad *because I can know you*
+    * 进一步改写为I am glad *because I am able to know you*
+    * 由连接词because所引导的副词从句中,主语I和前面主要从句的主语相同,是重复的元素.动词am是个空的be动词,没有意义.因此这两个元素(I am)都可以省略.可是,副词从句中省略主语与动词之后,已经不成一个完整的从句结构了.如此一来,连接because也就没有必要存在.剩下的不定词to know本身就带有able to的暗示,所以就变成:
+    * I am glad to know you.
+3. 由此我们可以看出,不定词与助动词的关系极为密切,我们可以利用这层关系来练习判断不定词的用法.
+
+---
+
+1. 后面都要接原形动词.
+    * I _will go_.(我要走了)
+    * I will _to go_.(我想去)
+2. 后面都有"不确定"的语气.
+    * He is right.(他是对的)
+    * He _may be_ right.(他可能是对的)
+    * He seems _to be_ right(他好像是对的)
+3. 分析:
+    * 第二句加上助动词may之后,就成了不确定的语气.所以第二句只是一个推测,不是事实叙述.同样用到不定词,也是不确定的语气.第三局也是推测,不是事实叙述.这种不确定语气是不定词与助动词之间一个很重要的共同点,可以用来判断何时该用不定词.
+4. 都要用完成式来表达相对的过去时间.
+    >助动词与不定词本身都无法完整表达过去时间.
+    * 如果你听到"哗啦哗啦"的声音从外面传来,就可以说:
+    * It must be raining now.(一定下雨了)
+    * 如果看到天上乌云密布,一副山雨欲来的样子,也可以说
+    * It may rain any minute.(随时都可能下雨)
+    * It might even snow.(说不定还会下雪.)
+5. 分析
+    * 第一句的助动词must没有过去式的拼法.至于第二句第三句的may和might,乍看之下好像有现在式和过去式的差别,可是用在猜测语气中并不是如此.It may rain any minute是未来时态,It might even snow同样是未来时态,这时的might并不是may的过去式,只表示比较保留和比较没有把握的猜测语气.所以,不论像must这类只有一种拼法的助动词,还是像may和might这类有两种拼法的助动词,都只能用来猜测现在或未来时间的事情,助动词本身缺乏表达过去时间的能力.
+6. 如果你早上起来看到地上湿湿的,于是说:
+    * It must have rained last night.(昨晚一定下过雨)
+    助动词只能表示语气强弱的差别,无法表达过去式.助动词后面要接原形动词,也不能用过去式,所以别无选择,只好用完成式来表示过去,也就是must have rained这种形态.
+    就这点来看不定词仍然与助动词相同.
+    * It _seems to have rained last night_.(昨晚好像下过雨)
+    seems是现在式表示"现在看起来""现在的推测".可是推测的事情是昨天晚上的事,是过去的时间,所以"下雨"应该是过去式,但是不定词与助动词一样,本身缺乏表达过去的能力,而却它后面要接原形动词,也不能用过去式,所以只能用完成式来表示过去,变成to have rained.这又是不定词与助动词的一个共同点.
+7. 所有重要的语气助动词,都可以改写为不定词
+    * must---have to
+    * should--ought to
+    * will/would--be going to
+    * can/could -- be able to
+    * may/might -- be likely to
+8. 从以上四点来看,不定词与助动词其实是同一种东西的相互变化,凡是不定词出现的地方,都可以看成是另外一个从句的省略:把主语省略,助动词改为不定词.
+
+#### 不定词与助动词的区分
+
+>传统语法所称的动状词(Verbals),包括现在分词,过去分词,动名词,不定词等等,其中现在分词,过去分词是形容词类,不定词则是"不一定什么词类":它可以当名词 形容词 副词使用.这就产生了一些混淆点.比如说,动词后面的宾语位置,必须用名词类.可是动名词和不定词都可以当作名词使用.那么到底如何区分呢?
+
+1. plan
+    * They(S) plan(V) to marry next month(O).(它们计划下个月结婚)
+2. 分析:这个句子的to marry next month 是plan的宾语,必须用名词类.那么为什么用不定词to marry,而不用动名词Marring呢?因为marry next month就是(that)they will marry next month的变化,marry是计划中的事情,下个月才要发生,是未来式.再把they will marry改成They are to marry.这时候,如果把重复的主语they和空的be动词are省略掉,就成了不定词to marry
+
+---
+
+1. avoid
+    * I(S) avoid(V) making the same mistake twice(O).(我避免犯同样的错误)
+    * 这里用making比用to make恰当,因为to make是will make的省略,既然是"避免",后面又用will make(将要做),意思就变得不清楚了.
+        * I avoid something.
+        * I will make the same mistake twice.
+2. 一般语法书中规定avoid后面要用动名词,只有动名词和不定词可以做名词类使用,也就是说:只有这两个可以当avoid的宾语.如果用不定词to make,则带有I will make这种未来式的涵义,与avoid这种具有否定意思的动词并不合适并列,所以只剩下动名词making是唯一的选择了.
+
+---
+
+1. hate
+    * I hate to say this,but I think you're mistaken.(对不起,你错了)
+2. 在这个句子中,hate固然也是否定的意思,可是后面却要接to say,这是因为to say是I have to say,也就是I must say 的变化,表示"虽然很不愿意说,可是不能不说"
+
+---
+
+1. like/dislike
+    * I (V)like (O)to be the first(我喜欢排第一)
+    * I (V)don't like (O)to wait too long.(我不喜欢等太久)
+    * I (V)dislike (O)standing in long lines(我讨厌排队)
+2. 第一句中的to be,可以视为I can be 的变化,第二句中的to wait视为I will wait的变化,它可以做为like的宾语,成为like to wait(愿意等),或变成否定句don't like to wait(不喜欢等)这些都可以使用不定词.
+3. 只有第三句,动词dislike(不喜欢)本身是否定的,后面就不适合接I will stand in long lines(愿意排队).而且dislike不像hate,它没有"必须"(have to)的暗示.所以dislike的后面接to stand就不合适了.既然不能用不定词,就只剩下动名词可以用了,所以要说I dislike standing....
+
+---
+
+1. try
+    * I always (V)try (O)to be on time.(我总是力求准时)
+2. 这个句子中,to be on time可视为I can be on time的变化.主要从句动词try有"尝试"的不确定意味.所以后面用不定词to be on time,代表"希望能够准时".如果你每次都很准时,结果对方迟到很久,就会指点你:
+3. Why don't (S)you (V)try (O)being late for a change?
+    * 准时不是每次都能做到的,不可控的因素太多了.所以只能说I try to be on time,也就说I try if I can be on time.(希望能够,但没有把握).但是在上面那个句子中,试的事情是"迟到",是任何人都有把握做到的,就不适合to be了.比方说:
+4. (O)I (V)try (O)to be late.(努力去迟到很奇怪)
+
+---
+
+1. remember
+    * Please (V)remember (O)to give me a walk-up call at 6:00 tomorrow.(请记住,明早六点打电话叫我起床.)
+    * (S)I (V)remember (O)calling her at 6:00 last night.(我记得昨晚六点打电话给她)
+2. 第一句中,你交代服务生隔天六点打电话来教你起床也就是:
+    * Please remember you must give me a call.
+    * 这个电话还没打,时间是未来式.因为这种不确定性,所以要用must give或will give,也就演变成 to give.
+3. 第二个句子,"我确实记得昨晚曾打过电话",也就是:
+    * I remember that I called her last night.
+    * 这时是确定的事实语气,没有助动词存在,也就不能变成不定词,所以只好用动名词calling.
+
+---
+
+1. stop
+2. 例句:
+    * (S)The speaker (V)stopped (V)_talking_ at the second bell.(按第二次铃演讲人才停止发言.)
+    * 这里,talking可以视为he was talking的变化,演讲是一直在持续进行的,然后才停止下来.所以用talking来表示动作的持续性
+3. The speaker stopped a second to drink some water.(演讲人停顿一下,喝了些水.)
+    * 这个句子中to drink是he could drink的变化,整个句子可还原如下:
+        * (S)The speaker (V)stopped a second so that he could drink some water.
+        * 句子中so that引导的是副词从句"为了要喝口水",它是修饰动词stopped的原因.改成不定词就成了to drink some water,这个不定词短语仍然是副词类,修饰动词stopped.
+
+#### 使役动词与原形动词
+
+>了解不定词是什么,就能了解使役动词的后买呢为什么要接原形动词.我们先比较一下使役动词和一般动词有什么差别.
+
+1. (S)The little girl (V)asked (O)her mother (C)to come to the PTA meeting.(小女孩邀请妈妈来开母妹会)
+2. (S)The little girl (V)asked (O)*if her mother would come to the PTA meeting*.
+    * ask是普通动词 邀请人参加,但别人愿不愿意是不确定的,所以会牵扯到语气助动词would come,这就会变成不定词to come.
+3. 使役动词与普通动词的差别就在于它有强制性,它的结果是确定的,无从选择的.因为这种确定性的语气,排除了助动词存在的空间,因而也就不能用不定词.
+    * (S)The teacher (V)made (O)the little girl (C)stay behind.(老师叫小女孩留下来)
