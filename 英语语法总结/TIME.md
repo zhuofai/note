@@ -425,3 +425,76 @@
     * ask是普通动词 邀请人参加,但别人愿不愿意是不确定的,所以会牵扯到语气助动词would come,这就会变成不定词to come.
 3. 使役动词与普通动词的差别就在于它有强制性,它的结果是确定的,无从选择的.因为这种确定性的语气,排除了助动词存在的空间,因而也就不能用不定词.
     * (S)The teacher (V)made (O)the little girl (C)stay behind.(老师叫小女孩留下来)
+4. 如果老师客客气气的问:Will you stay behind?就会成为下面这句叙述
+    * (S)The teacher (V)asked (O)the little girl (C)to stay behind.
+    * 这个小女孩有选择的自由,她愿不愿意留下来这点还不确定,所以会有助动词,也就会变成不定词.可是如果老师命令他留下来,没有选择的余地,那么老师说的就是:Stay behind!请注意:命令句的原形动词,表示的就是强迫的语气.
+    * 像let have make等使役动词,后面是接动词原形而不能用不定词,就是因为这种强迫的命令语气,使它的结果不再具有不确定性,因而不能用不定词.
+    * 当然这并不表示使役动词的后面只能用原形动词.
+5. (S)John (V)had (O)his car (C)painted over.(约翰把车子让人重新漆过了)这个句子用过去分词也是正确的,至于为什么?我们留待第六章提到分词时再详细说明.
+
+#### 感官动词与原形动词
+
+>感官动词的后买呢接原形动词的道理,与使役动词时相同的 ,因为不定词的不确定性不适合这个上下文.
+
+1. I heard her playing the violin.(我听到她在拉小提琴)
+2. 所谓感官动词就是see hear watch等等.它们后买呢不适合用不定词,是因为不定词是助动词的变化,又不确定的语气.如果说to play the violin,那就表示she would play the violin(她想要或将要去拉小提琴),那么你听得到么?
+    * 所以感官动词这种"听到,看到"的字眼,只能配合确实发生的事使用,而不能和带有"不确定 未发生"涵义的不定词连用
+3. (S)I (V)heard (O)her (C)cry out in pain.(我听到她痛得大叫一声)
+    * 现在分词playing来表示持续性是最好的,
+    * 只是大叫一声,那么用crying并不好,这样会变成
+        * She was crying in pain(她很痛苦,一直哭)
+
+### 第五章动名词
+
+>传统语法中有四种动状词(Verbals),动名词是其中的一种.另外三种是现在分词(Ving),过去分词(Ven),以及上一张讨论过的不定词(to V).动名词与现在分词拼法相同.都是Ving,需要注意区分.不过动名词属于名词类,现在分词则是当形容词使用,两者词类不同,还不至于混淆.倒是动名词与不定词这两者,都可以当名词使用(现在分词与过去分词只能当形容词),所以在使用上要特别注意,否则容易出错.
+
+#### 动名词的特性
+
+1. 动名词与普通名词的比较
+    * Let me buy you _a drink_.(我请你喝一杯)
+    * _Drinking_ is his only vice.(喝酒是他唯一的坏习惯)
+2. a drink是普通名词:"一杯酒".第二句则要用动名词drinking,才能代表"喝酒"的动作和习惯.从这儿何以看出动名词相对于普通名词而言,仍然保留有若干程度的"动作"意味,而且可以有"持续性"的暗示.这种持续性与动作性,就是动名词常有的特色.
+3. 例句:
+    * I am not afraid of _death_,but I am scared of dying.(死亡我倒不怕,只是怕死的过程)
+4. 普通名词death代表"死亡"的概念.相信灵魂不朽的人像苏格拉底,大概都不会畏惧死亡本身,可是只要是人,就会有求生 避免痛苦的本能,在面临死亡的过程时仍然难免会恐惧,所以,若要区分"抽象概念"与"动作过程",只要一个普通名词,一个用暗示"动作  持续"的动名词就可以了.
+5. 例句
+    * There are _two  weddings_ at the restaurant tonight.(这家餐厅今晚有两场婚礼)
+6. 大部分的动名词是不可数名词,可是也有一些是可数的.动名词的前面有限定词,后面加-s表示复数.这种用法跟普通名词没有两样,不定词却不能这样用,这是动名词与不定词的差别之一.动名词的结构很像普通名词,可以有冠词;所有格有复数.不定词的结构则是to加原形动词,以短语形态出现,不能加限定词或复数.
+
+---
+
+1. 动名词短语与名词从句的比较
+    * (S)I really (V)enjoyed (O)_teaching English to school children at night_.(那时我晚上教儿童英语教的很愉快)
+2. 在传统语法中,句中宾语的部分被视为一个动名词短语.如果深入分析,将会发现短语中由动词(teach),宾语(English),介系词短语(to school children),时间副词(at night),只差没有主语.可是teach的主语很明显:与主要从句中的I是同一个人.所以,这个动名词短语还可以还原成一个名词从句.
+    * (S)I really (V)enjoyed that (O)I taught English to school children at night.
+3. 那么宾语从句是如何编程动名词短语的?从简化(reduction)的角度来了解这个问题.从句中的主语I和主要从句的主语I相同,所以可以省略,如果再把动词去掉,就可以成功地拆除这个从句,不需要连接词that了.但是从句的动词taught是有意义的动词,不能直接丢掉,但是可以改变成动状词(Verbal)来做词类变化.四种动状词中,只有不定词(to V)与动名词(Ving)可以当作名词使用,来取代名词从句.
+4. 这两种选择之中,该用哪一个?不定词是由助动词变化而来,带有不确定的语气.但在这个句子中,想表达的并不是这种语气,而是接近动名词的持续性语气.所以动名词短语可以视为名词从句的变化.只要主语和be动词放回去,就会出现完整的名词从句.
+
+#### 动名词的一些变化
+
+1. 复合字
+    * (S)Picking strawberries (V)can be (C)fun.(采草莓很好玩.)
+    * (S)_The picking_ of strawberries (V)requires (O)patience.(采草莓要有耐心)
+    * (S)Strawberry-picking (V)is (C)a strenuous job.(采草莓是很费力的工作)
+2. 第一句中,picking strawberries可以看出有动词pick和宾语strawberries.主语被省略了,看不出来是谁,只是笼统的anybody.所以,这句可以还原为:
+    * (S)_That anybody picks strawberries_ (V)can be (V)fun.
+    * 主语部分本来是名词从句,现在简化为动名词短语picking strawberries,其中strawberries是pick的宾语.
+3. 第二个例句中,picking前面加上了定冠词the,这样是the picking当作一个名词短语来使用.所以picking后面不能再有宾语,而要改成介系词短语of strawberries作为修饰语,形容the picking.
+4. 第三个句子中主语strawberry-picking是个复合字.把strawberries拿到东民次picking的前面,也就是把它房子啊形容词位置使用,这也是为何是呢么要改成单数的原因:英语形容词是没有复数的.中间加上hyphen,就串连成复合名词strawberry-picking.这个构造和mountain-climbing是相同的.
+
+---
+
+1. 主语不能省略时的处理方式
+    * (S)I (V)don't like (O)that john calls my girlfriend day after day.(约翰每天打电话给我女朋友,让我很不舒服)
+2. 在这个例句中,主要从句的主语时I,宾语从句的主语时John,主语并不相同.宾语从句的动词calls没有助动词,而且时日复一日持续的,所以不能改成不定词,而要用动名词calling.可是如果写成:
+    * (S)I (V)don't like (O)calling my girlfriend day after day.
+    * 就变成自己不爱打电话给女朋友了,问题就出在两个从句的主语不相同.所以在宾语calling之前,要设法表示打电话的是John,不是I.怎样才能把名词John变成形容词类来形容动名词的calling?前面说过,动名词结构接近普通名词,可以有冠词 所有格等等.所以,如果John变成所有格,就可以附在calling 的前面了:
+3. (S)I (V)don't like (O)John's calling my girlfriend day after day.
+    * 动名词的主语与主要从句的主语不同时,处理方式就是用所有格的形式保留下来.
+
+---
+
+1. 动名词的被动语态:being Ven
+    * (S)That I was invited here (V)is (C)a great honor.(受邀来到此地,是莫大的荣誉)
+2. 这个句子中,当做主语的名词从句有简化的空间,因为时被动语态,省略主语I之后,意思也不会表达不清楚.如果再把无意义的be动词省略,固然完成了简化的动作,可是剩下的部分:
+    (S)invited here(?)
